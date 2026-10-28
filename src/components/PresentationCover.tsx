@@ -11,6 +11,7 @@ import {
   Layers,
   FileText
 } from 'lucide-react';
+import ucnLogo from '../assets/logo_ucn.jpg'; 
 
 interface PresentationCoverProps {
   onEnterMap: () => void;
@@ -27,7 +28,7 @@ export const PresentationCover: React.FC<PresentationCoverProps> = ({
       <header className="w-full px-6 sm:px-10 py-6 flex items-center justify-between border-b border-stone-200/80 bg-white/80 backdrop-blur-md sticky top-0 z-20">
         <div className="flex items-center gap-4">
           <img
-            src="/assets/aistudio/logo_eef11e03.JPG"
+            src={ucnLogo}
             alt="Universidad Católica del Norte"
             className="h-12 sm:h-16 w-auto object-contain drop-shadow-2xs"
           />
