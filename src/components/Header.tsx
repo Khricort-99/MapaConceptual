@@ -28,7 +28,7 @@ export const Header: React.FC<HeaderProps> = ({
               title="Volver a la portada de presentación"
             >
               <img
-                src="/logo.JPG"
+                src="/MapaConceptual/logo.JPG"
                 alt="Universidad Católica del Norte"
                 className="h-9 sm:h-10 w-auto object-contain"
               />
